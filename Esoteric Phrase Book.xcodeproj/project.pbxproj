@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4CEE5D1C9B1937004AF1BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CEE5C1C9B1937004AF1BA /* AppDelegate.swift */; };
+		0A4CEE5F1C9B1937004AF1BA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CEE5E1C9B1937004AF1BA /* MasterViewController.swift */; };
+		0A4CEE611C9B1937004AF1BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CEE601C9B1937004AF1BA /* DetailViewController.swift */; };
+		0A4CEE641C9B1937004AF1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4CEE621C9B1937004AF1BA /* Main.storyboard */; };
+		0A4CEE661C9B1937004AF1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4CEE651C9B1937004AF1BA /* Assets.xcassets */; };
+		0A4CEE691C9B1937004AF1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4CEE671C9B1937004AF1BA /* LaunchScreen.storyboard */; };
+		0A4CEE741C9B1937004AF1BA /* Esoteric_Phrase_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CEE731C9B1937004AF1BA /* Esoteric_Phrase_BookTests.swift */; };
+		0A4CEE7F1C9B1937004AF1BA /* Esoteric_Phrase_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CEE7E1C9B1937004AF1BA /* Esoteric_Phrase_BookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4CEE701C9B1937004AF1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4CEE511C9B1937004AF1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4CEE581C9B1937004AF1BA;
+			remoteInfo = "Esoteric Phrase Book";
+		};
+		0A4CEE7B1C9B1937004AF1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4CEE511C9B1937004AF1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4CEE581C9B1937004AF1BA;
+			remoteInfo = "Esoteric Phrase Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4CEE591C9B1937004AF1BA /* Esoteric Phrase Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esoteric Phrase Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4CEE5C1C9B1937004AF1BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4CEE5E1C9B1937004AF1BA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		0A4CEE601C9B1937004AF1BA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0A4CEE631C9B1937004AF1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4CEE651C9B1937004AF1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4CEE681C9B1937004AF1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4CEE6A1C9B1937004AF1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4CEE6F1C9B1937004AF1BA /* Esoteric Phrase BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Esoteric Phrase BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4CEE731C9B1937004AF1BA /* Esoteric_Phrase_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esoteric_Phrase_BookTests.swift; sourceTree = "<group>"; };
+		0A4CEE751C9B1937004AF1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4CEE7A1C9B1937004AF1BA /* Esoteric Phrase BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Esoteric Phrase BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4CEE7E1C9B1937004AF1BA /* Esoteric_Phrase_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esoteric_Phrase_BookUITests.swift; sourceTree = "<group>"; };
+		0A4CEE801C9B1937004AF1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4CEE561C9B1937004AF1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4CEE6C1C9B1937004AF1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4CEE771C9B1937004AF1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4CEE501C9B1937004AF1BA = {
+			isa = PBXGroup;
+			children = (
+				0A4CEE5B1C9B1937004AF1BA /* Esoteric Phrase Book */,
+				0A4CEE721C9B1937004AF1BA /* Esoteric Phrase BookTests */,
+				0A4CEE7D1C9B1937004AF1BA /* Esoteric Phrase BookUITests */,
+				0A4CEE5A1C9B1937004AF1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4CEE5A1C9B1937004AF1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4CEE591C9B1937004AF1BA /* Esoteric Phrase Book.app */,
+				0A4CEE6F1C9B1937004AF1BA /* Esoteric Phrase BookTests.xctest */,
+				0A4CEE7A1C9B1937004AF1BA /* Esoteric Phrase BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4CEE5B1C9B1937004AF1BA /* Esoteric Phrase Book */ = {
+			isa = PBXGroup;
+			children = (
+				0A4CEE5C1C9B1937004AF1BA /* AppDelegate.swift */,
+				0A4CEE5E1C9B1937004AF1BA /* MasterViewController.swift */,
+				0A4CEE601C9B1937004AF1BA /* DetailViewController.swift */,
+				0A4CEE621C9B1937004AF1BA /* Main.storyboard */,
+				0A4CEE651C9B1937004AF1BA /* Assets.xcassets */,
+				0A4CEE671C9B1937004AF1BA /* LaunchScreen.storyboard */,
+				0A4CEE6A1C9B1937004AF1BA /* Info.plist */,
+			);
+			path = "Esoteric Phrase Book";
+			sourceTree = "<group>";
+		};
+		0A4CEE721C9B1937004AF1BA /* Esoteric Phrase BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4CEE731C9B1937004AF1BA /* Esoteric_Phrase_BookTests.swift */,
+				0A4CEE751C9B1937004AF1BA /* Info.plist */,
+			);
+			path = "Esoteric Phrase BookTests";
+			sourceTree = "<group>";
+		};
+		0A4CEE7D1C9B1937004AF1BA /* Esoteric Phrase BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4CEE7E1C9B1937004AF1BA /* Esoteric_Phrase_BookUITests.swift */,
+				0A4CEE801C9B1937004AF1BA /* Info.plist */,
+			);
+			path = "Esoteric Phrase BookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4CEE581C9B1937004AF1BA /* Esoteric Phrase Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4CEE831C9B1937004AF1BA /* Build configuration list for PBXNativeTarget "Esoteric Phrase Book" */;
+			buildPhases = (
+				0A4CEE551C9B1937004AF1BA /* Sources */,
+				0A4CEE561C9B1937004AF1BA /* Frameworks */,
+				0A4CEE571C9B1937004AF1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Esoteric Phrase Book";
+			productName = "Esoteric Phrase Book";
+			productReference = 0A4CEE591C9B1937004AF1BA /* Esoteric Phrase Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4CEE6E1C9B1937004AF1BA /* Esoteric Phrase BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4CEE861C9B1937004AF1BA /* Build configuration list for PBXNativeTarget "Esoteric Phrase BookTests" */;
+			buildPhases = (
+				0A4CEE6B1C9B1937004AF1BA /* Sources */,
+				0A4CEE6C1C9B1937004AF1BA /* Frameworks */,
+				0A4CEE6D1C9B1937004AF1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4CEE711C9B1937004AF1BA /* PBXTargetDependency */,
+			);
+			name = "Esoteric Phrase BookTests";
+			productName = "Esoteric Phrase BookTests";
+			productReference = 0A4CEE6F1C9B1937004AF1BA /* Esoteric Phrase BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A4CEE791C9B1937004AF1BA /* Esoteric Phrase BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4CEE891C9B1937004AF1BA /* Build configuration list for PBXNativeTarget "Esoteric Phrase BookUITests" */;
+			buildPhases = (
+				0A4CEE761C9B1937004AF1BA /* Sources */,
+				0A4CEE771C9B1937004AF1BA /* Frameworks */,
+				0A4CEE781C9B1937004AF1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4CEE7C1C9B1937004AF1BA /* PBXTargetDependency */,
+			);
+			name = "Esoteric Phrase BookUITests";
+			productName = "Esoteric Phrase BookUITests";
+			productReference = 0A4CEE7A1C9B1937004AF1BA /* Esoteric Phrase BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4CEE511C9B1937004AF1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexis Caudle";
+				TargetAttributes = {
+					0A4CEE581C9B1937004AF1BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D6JXMWHJDV;
+					};
+					0A4CEE6E1C9B1937004AF1BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D6JXMWHJDV;
+						TestTargetID = 0A4CEE581C9B1937004AF1BA;
+					};
+					0A4CEE791C9B1937004AF1BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D6JXMWHJDV;
+						TestTargetID = 0A4CEE581C9B1937004AF1BA;
+					};
+				};
+			};
+			buildConfigurationList = 0A4CEE541C9B1937004AF1BA /* Build configuration list for PBXProject "Esoteric Phrase Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4CEE501C9B1937004AF1BA;
+			productRefGroup = 0A4CEE5A1C9B1937004AF1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4CEE581C9B1937004AF1BA /* Esoteric Phrase Book */,
+				0A4CEE6E1C9B1937004AF1BA /* Esoteric Phrase BookTests */,
+				0A4CEE791C9B1937004AF1BA /* Esoteric Phrase BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4CEE571C9B1937004AF1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4CEE691C9B1937004AF1BA /* LaunchScreen.storyboard in Resources */,
+				0A4CEE661C9B1937004AF1BA /* Assets.xcassets in Resources */,
+				0A4CEE641C9B1937004AF1BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4CEE6D1C9B1937004AF1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4CEE781C9B1937004AF1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4CEE551C9B1937004AF1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4CEE611C9B1937004AF1BA /* DetailViewController.swift in Sources */,
+				0A4CEE5F1C9B1937004AF1BA /* MasterViewController.swift in Sources */,
+				0A4CEE5D1C9B1937004AF1BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4CEE6B1C9B1937004AF1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4CEE741C9B1937004AF1BA /* Esoteric_Phrase_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4CEE761C9B1937004AF1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4CEE7F1C9B1937004AF1BA /* Esoteric_Phrase_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4CEE711C9B1937004AF1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4CEE581C9B1937004AF1BA /* Esoteric Phrase Book */;
+			targetProxy = 0A4CEE701C9B1937004AF1BA /* PBXContainerItemProxy */;
+		};
+		0A4CEE7C1C9B1937004AF1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4CEE581C9B1937004AF1BA /* Esoteric Phrase Book */;
+			targetProxy = 0A4CEE7B1C9B1937004AF1BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A4CEE621C9B1937004AF1BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4CEE631C9B1937004AF1BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4CEE671C9B1937004AF1BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4CEE681C9B1937004AF1BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4CEE811C9B1937004AF1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4CEE821C9B1937004AF1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4CEE841C9B1937004AF1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Esoteric Phrase Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lettuce.Esoteric-Phrase-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A4CEE851C9B1937004AF1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Esoteric Phrase Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lettuce.Esoteric-Phrase-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A4CEE871C9B1937004AF1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Esoteric Phrase BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lettuce.Esoteric-Phrase-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Esoteric Phrase Book.app/Esoteric Phrase Book";
+			};
+			name = Debug;
+		};
+		0A4CEE881C9B1937004AF1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Esoteric Phrase BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lettuce.Esoteric-Phrase-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Esoteric Phrase Book.app/Esoteric Phrase Book";
+			};
+			name = Release;
+		};
+		0A4CEE8A1C9B1937004AF1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Esoteric Phrase BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lettuce.Esoteric-Phrase-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Esoteric Phrase Book";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A4CEE8B1C9B1937004AF1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Esoteric Phrase BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lettuce.Esoteric-Phrase-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Esoteric Phrase Book";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4CEE541C9B1937004AF1BA /* Build configuration list for PBXProject "Esoteric Phrase Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4CEE811C9B1937004AF1BA /* Debug */,
+				0A4CEE821C9B1937004AF1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4CEE831C9B1937004AF1BA /* Build configuration list for PBXNativeTarget "Esoteric Phrase Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4CEE841C9B1937004AF1BA /* Debug */,
+				0A4CEE851C9B1937004AF1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A4CEE861C9B1937004AF1BA /* Build configuration list for PBXNativeTarget "Esoteric Phrase BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4CEE871C9B1937004AF1BA /* Debug */,
+				0A4CEE881C9B1937004AF1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A4CEE891C9B1937004AF1BA /* Build configuration list for PBXNativeTarget "Esoteric Phrase BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4CEE8A1C9B1937004AF1BA /* Debug */,
+				0A4CEE8B1C9B1937004AF1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4CEE511C9B1937004AF1BA /* Project object */;
+}
